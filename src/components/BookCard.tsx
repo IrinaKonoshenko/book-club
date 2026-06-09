@@ -1,0 +1,23 @@
+import type { Book } from "../types/book";
+
+type BookCardProps = {
+  book: Book;
+};
+
+export default function BookCard({ book }: BookCardProps) {
+  return (
+    <div className="flex flex-col justify-center items-center gap-5 border border-gray-400/15 p-5 rounded-lg cursor-pointer transition hover:scale-105">
+      <div className="w-25 flex justify-center items-center overflow-hidden">
+        <img
+          src={book.cover}
+          alt=""
+          className=" w-full aspect-[2/3] object-cover rounded-xl"
+        />
+      </div>
+
+      <h3 className="font-name">{book.title}</h3>
+
+      <p className="font-author text-gray-300">{book.author}</p>
+    </div>
+  );
+}

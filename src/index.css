@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-title: "Great Vibes", serif;
+  --font-book: "Cinzel", sans-serif;
+  --font-author: "Cormorant Garamond", sans-serif;
+  --font-name: "Playfair Display", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+
+.stars {
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, white, transparent),
+    radial-gradient(2px 2px at 40px 70px, white, transparent),
+    radial-gradient(1px 1px at 90px 40px, white, transparent),
+    radial-gradient(2px 2px at 160px 120px, white, transparent),
+    radial-gradient(1px 1px at 230px 80px, white, transparent);
+
+  background-repeat: repeat;
+  background-size: 300px 300px;
+
+  animation: twinkle 8s linear infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+
+
