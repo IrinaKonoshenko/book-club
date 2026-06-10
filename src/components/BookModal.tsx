@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Book } from "../types/book";
 
 type BookModalProps = {
@@ -7,6 +7,17 @@ type BookModalProps = {
 };
 
 export default function BookModal({ book, onClose }: BookModalProps) {
+  useEffect(() => {
+    if (!book) return;
+
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [book]);
+
   const reviews =
     book?.reviews.filter((review) => review.text.trim() !== "") ?? [];
   const [activeReviewIndex, setActiveReviewIndex] = useState(0);

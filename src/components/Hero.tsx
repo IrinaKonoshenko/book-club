@@ -38,11 +38,11 @@ export default function Hero() {
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center">
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center w-full max-w-[340px]">
               <img
                 src="/photos/1.png"
                 alt="Встреча клуба"
-                className=" h-70 w-100 rounded-2xl object-cover "
+                className="w-full max-h-[60vh] rounded-2xl object-contain"
               />
             </div>
             <p className="text-2xl font-title text-gray-300">
