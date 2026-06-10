@@ -11,7 +11,7 @@ export default function Hero() {
                 className=" h-70 w-100 rounded-2xl object-cover "
               />
             </div>
-            <p className="text-lg font-title text-gray-300">
+            <p className="text-2xl font-title text-gray-300">
               Founded on December 23, 2025, our book club is a women-only space
               built around a shared love of reading — and, as it turns out, much
               more than that. We are incredibly different from one another.
@@ -28,7 +28,7 @@ export default function Hero() {
                 className=" h-70 w-100 rounded-2xl object-cover "
               />
             </div>
-            <p className="text-lg font-title text-gray-300">
+            <p className="text-2xl font-title text-gray-300">
               At first, we met simply to discuss books. But little by little,
               our club became something bigger. We started spending more time
               together outside of our monthly meetings — going to concerts,
@@ -45,7 +45,7 @@ export default function Hero() {
                 className=" h-70 w-100 rounded-2xl object-cover "
               />
             </div>
-            <p className="text-lg font-title text-gray-300">
+            <p className="text-2xl font-title text-gray-300">
               Every month, one of us chooses a book for the group. We all read
               it, then gather to share our thoughts, opinions, favorite moments,
               and sometimes completely opposite interpretations. The discussions

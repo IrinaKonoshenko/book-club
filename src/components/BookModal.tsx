@@ -88,7 +88,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                     {activeReview?.rating ?? "—"}
                   </span>
                 </div>
-                <div className="max-h-[220px] overflow-y-auto pr-2 pb-2 text-slate-700 review-scroll select-none">
+                <div className="max-h-55 overflow-y-auto pr-2 pb-2 text-slate-700 review-scroll select-none">
                   <p className="leading-7">
                     {activeReview?.text ?? "Пока нет отзывов для этого списка."}
                   </p>
