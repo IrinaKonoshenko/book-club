@@ -5,9 +5,9 @@ export const books: Book[] = [
     id: 0,
     title: "Караваль",
     author: "Стефани Гарбер",
-    cover: "covers/1.jpg",
+    cover: "/covers/1.jpg",
 
-    chosenBy: "Ната",
+    chosenBy: "Натали",
     readDate: "Январь 2026",
 
     reviews: [
@@ -140,7 +140,7 @@ export const books: Book[] = [
     ]
   },
    {
-    id: 1,
+    id: 3,
     title: "Нефритовый город",
     author: "Фонда Ли",
     cover: "/covers/4.jpg",
@@ -186,7 +186,7 @@ export const books: Book[] = [
     ]
   },
    {
-    id: 1,
+    id: 4,
     title: "Если наступит завтра",
     author: "Сидни Шелдон",
     cover: "/covers/5.jpg",

@@ -2,16 +2,38 @@ import type { Book } from "../types/book";
 
 type BookCardProps = {
   book: Book;
+  onClick: () => void;
 };
 
-export default function BookCard({ book }: BookCardProps) {
+export default function BookCard({ book, onClick }: BookCardProps) {
   return (
-    <div className="flex flex-col justify-center items-center gap-5 border border-gray-400/15 p-5 rounded-lg cursor-pointer transition hover:scale-105">
+    <div
+      onClick={onClick}
+      className="
+        flex
+        flex-col
+        justify-center
+        items-center
+        gap-5
+        border
+        border-gray-400/15
+        p-5
+        rounded-lg
+        cursor-pointer
+        transition
+        hover:scale-105
+      "
+    >
       <div className="w-25 flex justify-center items-center overflow-hidden">
         <img
           src={book.cover}
-          alt=""
-          className=" w-full aspect-[2/3] object-cover rounded-xl"
+          alt={book.title}
+          className="
+            w-full
+            aspect-2/3
+            object-cover
+            rounded-xl
+          "
         />
       </div>
 
