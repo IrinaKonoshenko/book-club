@@ -41,32 +41,34 @@ export default function BookModal({ book, onClose }: BookModalProps) {
             X
           </button>
         </div>
-        <div className="flex justify-between gap-12">
-          <div className="flex items-center">
-            <div className="mr-8 w-60 flex justify-center items-center shrink-0">
+        <div className="flex flex-col gap-8 md:grid md:grid-cols-[250px_1fr_340px] md:gap-12">
+          <div className="w-full">
+            <div className="overflow-hidden rounded-2xl shadow-lg">
               <img
                 src={book.cover}
                 alt={book.title}
-                className="w-full rounded-2xl object-cover shadow-lg"
+                className="w-full max-h-[55vh] object-contain"
               />
             </div>
+          </div>
 
-            <div className="flex flex-col gap-40">
-              <div>
-                <h2 className="font-title text-5xl text-blue-950">
-                  {book.title}
-                </h2>
-                <p className="mt-3 text-xl text-slate-700">{book.author}</p>
-              </div>
-              <div className="space-y-3">
-                <p className="text-slate-800 font-title">
-                  <span className="font-semibold font-name">Chosen by:</span>{" "}
-                  {book.chosenBy}
-                </p>
-                <p className="text-slate-800">
-                  <span className="font-semibold">Read:</span> {book.readDate}
-                </p>
-              </div>
+          <div className="flex flex-col gap-6">
+            <div>
+              <h2 className="font-title text-4xl sm:text-5xl text-blue-950">
+                {book.title}
+              </h2>
+              <p className="mt-3 text-lg sm:text-xl text-slate-700">
+                {book.author}
+              </p>
+            </div>
+            <div className="space-y-3">
+              <p className="text-slate-800 font-title">
+                <span className="font-semibold font-name">Chosen by:</span>{" "}
+                {book.chosenBy}
+              </p>
+              <p className="text-slate-800">
+                <span className="font-semibold">Read:</span> {book.readDate}
+              </p>
             </div>
           </div>
 
@@ -74,7 +76,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
             <p className="text-xs uppercase tracking-[0.35em] text-stone-500 font-title">
               Club review
             </p>
-            <div className="flex h-105 w-85 flex-col justify-between rounded-4xl bg-[#fbf3dd]/90 p-6 shadow-2xl text-sm overflow-hidden">
+            <div className="flex w-full max-w-full flex-col justify-between rounded-4xl bg-[#fbf3dd]/90 p-6 shadow-2xl text-sm overflow-hidden md:h-105 md:w-85">
               <div>
                 <div className="mb-4 flex items-start justify-between gap-3">
                   <div>
@@ -96,7 +98,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                 <button
                   type="button"
                   onClick={() => changeReview("prev")}
-                  className="inline-flex h-10 w-10 items-center justify-center  text-slate-700 transition"
+                  className="inline-flex h-10 w-10 items-center justify-center text-slate-700 transition"
                   aria-label="Previous review"
                 >
                   ←
@@ -109,7 +111,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                 <button
                   type="button"
                   onClick={() => changeReview("next")}
-                  className="inline-flex h-10 w-10 items-center justify-center  text-slate-700 transition"
+                  className="inline-flex h-10 w-10 items-center justify-center text-slate-700 transition"
                   aria-label="Next review"
                 >
                   →
