@@ -89,9 +89,7 @@ export default function Hero() {
                       невероятно разные. У нас разные характеры, интересы,
                       жизненный опыт и взгляды на мир. И каким-то образом именно
                       это делает нас такой хорошей компанией. Здесь всегда было
-                      легко оставаться собой. Somehow, though, that is exactly
-                      what makes us work so well together. Being ourselves has
-                      always felt easy here.
+                      легко оставаться собой.
                     </p>
                   </div>
                   <div className="flex gap-5 items-center">

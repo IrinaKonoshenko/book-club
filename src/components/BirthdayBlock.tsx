@@ -31,7 +31,7 @@ export default function NextBirthday() {
   if (!nextBirthday) return null;
 
   return (
-    <div className="container mx-auto flex flex-col items-center gap-10">
+    <div className="flex flex-col items-center gap-10">
       <div className="font-title text-xl text-gray-200">
         Ближайший день рождения:
       </div>

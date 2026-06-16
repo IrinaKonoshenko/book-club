@@ -9,6 +9,8 @@ import BookOfMonth from "./components/BookOfMonth";
 import NextBirthday from "./components/BirthdayBlock";
 import GetCurrentChooser from "./components/GetCurrentChooser";
 import NextMeet from "./components/NextMeet";
+import EmptyBlock from "./components/EmptyBlock";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -17,14 +19,18 @@ function App() {
       <Header />
       <main className="relative text-white flex flex-col gap-10">
         <Hero />
-        <div className="flex flex-col justify-center items-center gap-10 lg:flex-row">
-          <BookOfMonth
-            onClick={() => console.log("Book of the Month clicked")}
-          />
+        <Form />
+        <div className="container mx-auto flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+            <BookOfMonth
+              onClick={() => console.log("Book of the Month clicked")}
+            />
 
-          <GetCurrentChooser />
-          <NextMeet />
-          <NextBirthday />
+            <GetCurrentChooser />
+            <EmptyBlock />
+            <NextMeet />
+            <NextBirthday />
+          </div>
         </div>
         <BooksRead />
         <Footer />
