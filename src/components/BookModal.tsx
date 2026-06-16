@@ -41,7 +41,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
       onClick={onClose}
     >
       <div
-        className="mx-auto w-full max-w-[90vw] rounded-3xl bg-[#f6f0e2] p-8 shadow-2xl"
+        className="mx-auto w-full max-w-[90vw] rounded-3xl bg-[#f6f0e2] p-8 shadow-2xl flex flex-col gap-8 md:gap-12"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-end">
@@ -131,6 +131,50 @@ export default function BookModal({ book, onClose }: BookModalProps) {
             </div>
           </div>
         </div>
+        <ul className="grid grid-cols-1 gap-4 lg:grid-cols-6">
+          <li className="flex justify-center items-center w-50 h-70 overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://kniga.lv/cdn-cgi/image/quality=70,format=auto/img_gallery/258/5/99.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </li>
+          <li className="flex justify-center items-center w-50 h-70 overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://i.pinimg.com/236x/69/3a/80/693a80cb6519824cc23f3f9483292621.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </li>
+          <li className="flex justify-center items-center w-50 h-70 overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://i.pinimg.com/236x/c2/db/30/c2db300913bd6e766691d22952aad1f3.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </li>
+          <li className="flex justify-center items-center w-50 h-70 overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://i.pinimg.com/236x/7f/97/8b/7f978bb1bdf0041b644948f8cbbc5b4d.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </li>
+          <li className="flex justify-center items-center w-50 h-70 overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://i.pinimg.com/236x/df/e9/28/dfe9280199452cf92abc67e5eab35b09.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </li>
+          <li className="flex justify-center items-center w-50 h-70 overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://i.pinimg.com/236x/c2/db/30/c2db300913bd6e766691d22952aad1f3.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </li>
+        </ul>
       </div>
     </div>
   );

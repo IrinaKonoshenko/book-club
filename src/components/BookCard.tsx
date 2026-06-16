@@ -15,16 +15,11 @@ export default function BookCard({ book, onClick }: BookCardProps) {
         <img
           src={book.cover}
           alt={book.title}
-          className="
-            w-full
-            aspect-2/3
-            object-cover
-            rounded-xl
-          "
+          className="w-full aspect-2/3 object-cover rounded-xl"
         />
       </div>
 
-      <h3 className="font-name">{book.title}</h3>
+      <h3 className="font-name text-center">{book.title}</h3>
 
       <p className="font-author text-gray-300">{book.author}</p>
     </div>
