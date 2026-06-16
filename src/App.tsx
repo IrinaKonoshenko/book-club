@@ -17,7 +17,7 @@ function App() {
       <Header />
       <main className="relative text-white flex flex-col gap-10">
         <Hero />
-        <div className="flex justify-center items-center gap-10">
+        <div className="flex flex-col justify-center items-center gap-10 lg:flex-row">
           <BookOfMonth
             onClick={() => console.log("Book of the Month clicked")}
           />
