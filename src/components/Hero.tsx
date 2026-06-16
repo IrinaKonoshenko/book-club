@@ -3,6 +3,9 @@ export default function Hero() {
     <>
       <section className="py-16 lg:hidden">
         <div className="container mx-auto px-4 flex flex-col gap-5">
+          <h3 className="text-4xl font-title text-gray-300 text-center">
+            О нашем клубе:
+          </h3>
           <div className="flex flex-col gap-5 items-center">
             <div className="flex justify-center items-center">
               <img
@@ -12,12 +15,12 @@ export default function Hero() {
               />
             </div>
             <p className="text-3xl font-title text-gray-300">
-              Founded on December 23, 2025, our book club is a women-only space
-              built around a shared love of reading — and, as it turns out, much
-              more than that. We are incredibly different from one another.
-              Different personalities, interests, backgrounds, and perspectives.
-              Somehow, though, that is exactly what makes us work so well
-              together. Being ourselves has always felt easy here.
+              Основанный 23 декабря 2025 года, наш книжный клуб — это
+              пространство только для девушек, созданное вокруг общей любви к
+              чтению. Хотя, как оказалось, не только к нему. Мы невероятно
+              разные. У нас разные характеры, интересы, жизненный опыт и взгляды
+              на мир. И каким-то образом именно это делает нас такой хорошей
+              компанией. Здесь всегда было легко оставаться собой.
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center">
@@ -29,12 +32,12 @@ export default function Hero() {
               />
             </div>
             <p className="text-3xl font-title text-gray-300">
-              At first, we met simply to discuss books. But little by little,
-              our club became something bigger. We started spending more time
-              together outside of our monthly meetings — going to concerts,
-              celebrating our founder’s birthday, watching movies, taking walks,
-              and creating memories that had nothing to do with plot twists or
-              character development.
+              Сначала мы встречались просто для того, чтобы обсуждать книги. Но
+              постепенно наш клуб стал чем-то большим. Мы начали проводить время
+              вместе и за пределами книжных встреч: ходить на концерты,
+              праздновать день рождения основательницы клуба, смотреть фильмы в
+              кинотеатре, гулять и создавать воспоминания, которые никак не
+              связаны с сюжетными поворотами и литературными героями.
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center">
@@ -46,20 +49,24 @@ export default function Hero() {
               />
             </div>
             <p className="text-3xl font-title text-gray-300">
-              Every month, one of us chooses a book for the group. We all read
-              it, then gather to share our thoughts, opinions, favorite moments,
-              and sometimes completely opposite interpretations. The discussions
-              are thoughtful, lively, and occasionally persuasive enough to make
-              someone rethink everything they just read. What began as a book
-              club has grown into a circle of friendship, support, laughter, and
-              meaningful conversations. The books bring us together, but the
-              people are the reason we keep coming back.
+              Каждый месяц одна из нас выбирает книгу для чтения. Мы все читаем
+              её, а затем собираемся вместе, чтобы поделиться своими мыслями,
+              впечатлениями, любимыми моментами и иногда совершенно
+              противоположными взглядами на прочитанное. Наши обсуждения бывают
+              вдумчивыми, живыми и порой настолько убедительными, что кто-то
+              начинает смотреть на книгу совсем иначе. То, что начиналось как
+              книжный клуб, постепенно превратилось в круг дружбы, поддержки,
+              смеха и искренних разговоров. Книги объединяют нас, но именно люди
+              заставляют нас возвращаться снова и снова.
             </p>
           </div>
         </div>
       </section>
       <section className="hidden lg:block px-10 py-16 md:py-24">
         <div className="container mx-auto px-4">
+          <h3 className="text-4xl font-title text-gray-300 text-center pb-5">
+            О нашем клубе:
+          </h3>
           <div className="border border-gray-600 rounded-lg p-4 bg-gray-900">
             <div className=" relative overflow-hidden rounded-4xl border border-white/10 bg-[#f8f3e8] shadow-2xl ">
               {/* Корешок книги */}
@@ -76,24 +83,26 @@ export default function Hero() {
                       />
                     </div>
                     <p className="text-2xl font-title text-blue-950 w-1/2">
-                      Founded on December 23, 2025, our book club is a
-                      women-only space built around a shared love of reading —
-                      and, as it turns out, much more than that. We are
-                      incredibly different from one another. Different
-                      personalities, interests, backgrounds, and perspectives.
-                      Somehow, though, that is exactly what makes us work so
-                      well together. Being ourselves has always felt easy here.
+                      Основанный 23 декабря 2025 года, наш книжный клуб — это
+                      пространство только для девушек, созданное вокруг общей
+                      любви к чтению. Хотя, как оказалось, не только к нему. Мы
+                      невероятно разные. У нас разные характеры, интересы,
+                      жизненный опыт и взгляды на мир. И каким-то образом именно
+                      это делает нас такой хорошей компанией. Здесь всегда было
+                      легко оставаться собой. Somehow, though, that is exactly
+                      what makes us work so well together. Being ourselves has
+                      always felt easy here.
                     </p>
                   </div>
                   <div className="flex gap-5 items-center">
                     <p className="text-2xl font-title text-blue-950 w-1/2">
-                      At first, we met simply to discuss books. But little by
-                      little, our club became something bigger. We started
-                      spending more time together outside of our monthly
-                      meetings — going to concerts, celebrating our founder’s
-                      birthday, watching movies, taking walks, and creating
-                      memories that had nothing to do with plot twists or
-                      character development.
+                      Сначала мы встречались просто для того, чтобы обсуждать
+                      книги. Но постепенно наш клуб стал чем-то большим. Мы
+                      начали проводить время вместе и за пределами книжных
+                      встреч: ходить на концерты, праздновать день рождения
+                      основательницы клуба, смотреть фильмы в кинотеатре, гулять
+                      и создавать воспоминания, которые никак не связаны с
+                      сюжетными поворотами и литературными героями.
                     </p>
                     <div className="flex justify-center items-center w-1/2">
                       <img
@@ -114,15 +123,16 @@ export default function Hero() {
                     />
                   </div>
                   <p className="text-2xl font-title text-blue-950">
-                    Every month, one of us chooses a book for the group. We all
-                    read it, then gather to share our thoughts, opinions,
-                    favorite moments, and sometimes completely opposite
-                    interpretations. The discussions are thoughtful, lively, and
-                    occasionally persuasive enough to make someone rethink
-                    everything they just read. What began as a book club has
-                    grown into a circle of friendship, support, laughter, and
-                    meaningful conversations. The books bring us together, but
-                    the people are the reason we keep coming back.
+                    Каждый месяц одна из нас выбирает книгу для чтения. Мы все
+                    читаем её, а затем собираемся вместе, чтобы поделиться
+                    своими мыслями, впечатлениями, любимыми моментами и иногда
+                    совершенно противоположными взглядами на прочитанное. Наши
+                    обсуждения бывают вдумчивыми, живыми и порой настолько
+                    убедительными, что кто-то начинает смотреть на книгу совсем
+                    иначе. То, что начиналось как книжный клуб, постепенно
+                    превратилось в круг дружбы, поддержки, смеха и искренних
+                    разговоров. Книги объединяют нас, но именно люди заставляют
+                    нас возвращаться снова и снова.
                   </p>
                 </div>
               </div>

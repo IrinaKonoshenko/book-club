@@ -14,4 +14,6 @@ export interface Book {
   readDate: string;
 
   reviews: Review[];
+
+  photos: string[];
 }
