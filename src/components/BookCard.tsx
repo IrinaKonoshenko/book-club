@@ -9,20 +9,7 @@ export default function BookCard({ book, onClick }: BookCardProps) {
   return (
     <div
       onClick={onClick}
-      className="
-        flex
-        flex-col
-        justify-center
-        items-center
-        gap-5
-        border
-        border-gray-400/15
-        p-5
-        rounded-lg
-        cursor-pointer
-        transition
-        hover:scale-105
-      "
+      className="w-52.5 h-80 overflow-hidden flex flex-col justify-center items-center gap-5 border border-gray-400/15 p-5 rounded-lg cursor-pointer transition hover:scale-105"
     >
       <div className="w-25 flex justify-center items-center overflow-hidden">
         <img

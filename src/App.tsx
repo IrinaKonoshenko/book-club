@@ -7,6 +7,8 @@ import Hero from "./components/Hero";
 import Footer from "./components/footer";
 import BookOfMonth from "./components/BookOfMonth";
 import NextBirthday from "./components/BirthdayBlock";
+import GetCurrentChooser from "./components/GetCurrentChooser";
+import NextMeet from "./components/NextMeet";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           <BookOfMonth
             onClick={() => console.log("Book of the Month clicked")}
           />
+
+          <GetCurrentChooser />
+          <NextMeet />
           <NextBirthday />
         </div>
         <BooksRead />
