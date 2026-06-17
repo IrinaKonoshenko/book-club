@@ -182,6 +182,11 @@ export const books: Book[] = [
     "/nefrit/2.jpg",
     "/nefrit/3.jpg",
     "/nefrit/4.jpg",
+    "/nefrit/5.jpg",
+    "/nefrit/6.jpg",
+    "/nefrit/7.jpg",
+    "/nefrit/8.jpg",
+    "/nefrit/9.jpg",
   ],
   },
    {
