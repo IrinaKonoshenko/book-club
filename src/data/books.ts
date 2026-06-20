@@ -236,4 +236,51 @@ export const books: Book[] = [
     "/tomorrow/9.jpg",
   ],
   },
+  {
+    id: 4,
+    title: "Потерянный мальчишка",
+    author: "Кристина Генри",
+    cover: "/covers/6.jpg",
+
+    chosenBy: "Мэри",
+    readDate: "Июль 2026",
+
+    reviews: [
+      {
+        name: "Ирина",
+        rating: "/10",
+        text: "",
+      },
+       {
+        name: "Баян>",
+        rating: "/10",
+        text: "",
+       },
+       {
+        name: "Мэри",
+        rating: "/10",
+        text: "",
+      },
+       {
+        name: "Натали",
+        rating: "/10",
+        text: ""
+      }, {
+        name: "Камила",
+        rating: "10/10",
+       text: "",  
+      },
+    ], 
+    photos: [
+    "/lostboy/1.jpg",
+    "/lostboy/2.jpg",
+    "/lostboy/3.jpg",
+    "/lostboy/4.jpg",
+    "/lostboy/5.jpg",
+    "/lostboy/6.jpg",
+    "/lostboy/7.jpg",
+    "/lostboy/8.jpg",
+    "/lostboy/9.jpg",
+  ],
+  },
 ];

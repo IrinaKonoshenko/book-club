@@ -14,10 +14,6 @@ export default function GetCurrentChooser() {
       <div className="w-52.5 h-80 overflow-hidden flex flex-col justify-center items-center gap-5 border border-gray-400/15 p-5 rounded-lg cursor-pointer transition hover:scale-105">
         <div className="flex flex-col gap-3 items-center justify-center text-center">
           <p className="text-gray-400">Текущий выбирающий: </p>
-          <div className="font-author text-xl">{currentChooser}</div>
-        </div>
-        <div className="flex flex-col gap-3 items-center justify-center text-center">
-          <p className="text-gray-400">Следующий выбирающий: </p>
           <div className="font-author text-xl">
             {
               choosingQueue[
@@ -25,6 +21,10 @@ export default function GetCurrentChooser() {
               ]
             }
           </div>
+        </div>
+        <div className="flex flex-col gap-3 items-center justify-center text-center">
+          <p className="text-gray-400">Следующий выбирающий: </p>
+          <div className="font-author text-xl">{currentChooser}</div>
         </div>
       </div>
     </div>
