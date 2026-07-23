@@ -29,7 +29,7 @@ export const birthday: Birthday[] = [
         id: 4,
         title: "Камилла",
         date: "13.08",
-        img: "https://trafaret.papik.pro/uploads/posts/2024-09/trafaret-papik-pro-tduk-p-trafareti-devushka-s-knigoi-1.jpg",
+        img: "/photos/Kamila.jpg",
     },
     {
         id: 5,
