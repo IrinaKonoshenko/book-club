@@ -5,15 +5,15 @@ export default function NextMeet() {
       <div className="w-52.5 h-80 overflow-hidden flex flex-col justify-center items-center gap-5 border border-gray-400/15 p-5 rounded-lg cursor-pointer transition hover:scale-105">
         <div className="flex flex-col gap-3 items-center justify-center text-center">
           <p className="text-gray-400">Дата: </p>
-          <div className="font-author text-xl">Июль 2026</div>
+          <div className="font-title text-xl">01 августа 2026</div>
         </div>
         <div className="flex flex-col gap-3 items-center justify-center text-center">
           <p className="text-gray-400">Время: </p>
-          <div className="font-author text-xl">не выбрано</div>
+          <div className="font-title text-xl">15:00</div>
         </div>
         <div className="flex flex-col gap-3 items-center justify-center text-center">
           <p className="text-gray-400">Место: </p>
-          <div className="font-author text-xl">не выбрано</div>
+          <div className="font-title text-xl">Ресторан "Океан"</div>
         </div>
       </div>
     </div>
