@@ -13,7 +13,7 @@ export default function NextMeet() {
         </div>
         <div className="flex flex-col gap-3 items-center justify-center text-center">
           <p className="text-gray-400">Место: </p>
-          <div className="font-title text-xl">Ресторан "Океан"</div>
+          <div className="font-title text-xl">Кафе "Станция"</div>
         </div>
       </div>
     </div>
