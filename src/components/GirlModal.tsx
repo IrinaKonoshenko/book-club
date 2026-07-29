@@ -49,11 +49,11 @@ export default function GirlModal({ girl, onClose }: GirlModalProps) {
         </div>
 
         <div className="flex flex-col gap-8 md:grid md:grid-cols-[260px_1fr] md:gap-10">
-          <div className="overflow-hidden rounded-2xl">
+          <div className="overflow-hidden rounded-2xl w-full max-h-85">
             <img
               src={girl.img}
               alt={girl.title}
-              className="h-full w-full max-h-85 object-cover"
+              className="h-full w-full object-cover"
             />
           </div>
           <div>

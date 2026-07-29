@@ -11,8 +11,12 @@ import Girls from "./components/Girls";
 import Form from "./components/Form";
 import Footer from "./components/footer";
 import Block from "./components/Block";
+import type { Book } from "./types/book";
+import { useState } from "react";
 
 function App() {
+  const [selectedBook, setSelectedBook] = useState<Book | null>(null);
+
   return (
     <>
       <StarBackground />
@@ -22,9 +26,7 @@ function App() {
         <Form />
         <div className="container mx-auto flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <BookOfMonth
-              onClick={() => console.log("Book of the Month clicked")}
-            />
+            <BookOfMonth onClick={setSelectedBook} />
 
             <GetCurrentChooser />
             <Block />
@@ -32,7 +34,7 @@ function App() {
             <NextBirthday />
           </div>
         </div>
-        <BooksRead />
+        <BooksRead selectedBook={selectedBook} onSelectBook={setSelectedBook} />
         <Girls />
         <Footer />
       </main>

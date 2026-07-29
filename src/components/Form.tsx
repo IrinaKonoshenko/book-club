@@ -2,7 +2,7 @@ export default function Form() {
   return (
     <div className="container mx-auto flex justify-center mb-20">
       <div className="w-lg h-auto flex flex-col gap-5 justify-center items-center border border-gray-400/15  rounded-lg transition hover:scale-105 p-10">
-        <h2 className="font-title text-4xl text-gray-200">
+        <h2 className="font-title text-4xl text-gray-200 text-center">
           Заявка на вступление в наш клуб:
         </h2>
         <a

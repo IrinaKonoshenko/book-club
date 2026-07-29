@@ -1,5 +1,7 @@
+import { useState } from "react";
 import type { Birthday } from "../types/birtday";
 import { birthday } from "../data/birthday";
+import BirthdayModal from "./BirthdayModal";
 
 function getNextBirthday(birthdays: Birthday[]): Birthday | null {
   const today = new Date();
@@ -26,6 +28,7 @@ function getNextBirthday(birthdays: Birthday[]): Birthday | null {
 }
 
 export default function NextBirthday() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const nextBirthday = getNextBirthday(birthday);
 
   if (!nextBirthday) return null;
@@ -53,10 +56,19 @@ export default function NextBirthday() {
             </div>
           </div>
         </div>
-        <button className="absolute bottom-2 bg-transparent border border-gray-500 text-gray-300 text-xs py-1 px-3 rounded hover:bg-gray-700 hover:text-gray-100 transition">
-          Все дни рождения
+        <button
+          type="button"
+          onClick={() => setIsModalOpen(true)}
+          className="absolute bottom-2 bg-transparent border border-gray-500 text-gray-300 text-xs py-1 px-3 rounded hover:bg-gray-700 hover:text-gray-100 transition"
+        >
+          Все дни рождения:
         </button>
       </div>
+      <BirthdayModal
+        birthdays={birthday}
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 }

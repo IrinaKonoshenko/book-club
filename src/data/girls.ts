@@ -12,7 +12,7 @@ export const girls: Girls[] = [
         id: 1,
         title: "Ирина Р",
         date: "20.01",
-        img: "/girls/irinaL.jpg",
+        img: "/girls/irinaR.jpg",
         description: "Ирина, 32. Жанр: фэнтези. Автор преимущественно Нил Гейман. Увлечение: книги, музыка, сериалы, мифы народов мира",
     },
     {
