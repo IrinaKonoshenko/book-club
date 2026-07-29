@@ -3,7 +3,7 @@ import type { Peoples } from "../types/peoples";
 export const peoples: Peoples[] = [
     {
         id: 0,
-        name: "Ната", 
+        name: "Натали", 
     },
     {
         id: 1,

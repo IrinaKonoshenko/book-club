@@ -108,7 +108,7 @@ export const books: Book[] = [
     author: "Анджей Сапковский",
     cover: "/covers/3.jpg",
 
-    chosenBy: "Ирина",
+    chosenBy: "Ирина К",
     readDate: "Март 2026",
 
     reviews: [
@@ -215,7 +215,7 @@ export const books: Book[] = [
     author: "Сидни Шелдон",
     cover: "/covers/5.jpg",
 
-    chosenBy: "Камила",
+    chosenBy: "Камилла",
     readDate: "Май 2026",
 
     reviews: [

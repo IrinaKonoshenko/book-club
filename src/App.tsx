@@ -1,16 +1,16 @@
 import "./App.css";
 import StarBackground from "./components/StarBackground";
-
 import Header from "./components/Header";
 import BooksRead from "./components/BooksRead";
 import Hero from "./components/Hero";
-import Footer from "./components/footer";
 import BookOfMonth from "./components/BookOfMonth";
 import NextBirthday from "./components/BirthdayBlock";
 import GetCurrentChooser from "./components/GetCurrentChooser";
 import NextMeet from "./components/NextMeet";
 import Girls from "./components/Girls";
 import Form from "./components/Form";
+import Footer from "./components/footer";
+import Block from "./components/Block";
 
 function App() {
   return (
@@ -27,12 +27,13 @@ function App() {
             />
 
             <GetCurrentChooser />
-            <Girls />
+            <Block />
             <NextMeet />
             <NextBirthday />
           </div>
         </div>
         <BooksRead />
+        <Girls />
         <Footer />
       </main>
     </>
