@@ -35,7 +35,9 @@ export default function BirthdayModal({
   isOpen,
   onClose,
 }: BirthdayModalProps) {
-  const [selectedGirl, setSelectedGirl] = useState<(typeof girls)[number] | null>(null);
+  const [selectedGirl, setSelectedGirl] = useState<
+    (typeof girls)[number] | null
+  >(null);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -78,7 +80,9 @@ export default function BirthdayModal({
               key={birthday.id}
               type="button"
               onClick={() => {
-                const matchedGirl = girls.find((girl) => girl.title === birthday.title);
+                const matchedGirl = girls.find(
+                  (girl) => girl.title === birthday.title,
+                );
                 if (matchedGirl) setSelectedGirl(matchedGirl);
               }}
               className="flex flex-col items-center gap-4 rounded-2xl border border-slate-300/70 bg-white/70 p-4 text-center transition hover:scale-[1.01]"
