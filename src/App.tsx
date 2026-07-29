@@ -9,7 +9,7 @@ import BookOfMonth from "./components/BookOfMonth";
 import NextBirthday from "./components/BirthdayBlock";
 import GetCurrentChooser from "./components/GetCurrentChooser";
 import NextMeet from "./components/NextMeet";
-import EmptyBlock from "./components/EmptyBlock";
+import Girls from "./components/Girls";
 import Form from "./components/Form";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
             />
 
             <GetCurrentChooser />
-            <EmptyBlock />
+            <Girls />
             <NextMeet />
             <NextBirthday />
           </div>
