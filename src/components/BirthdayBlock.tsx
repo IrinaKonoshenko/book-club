@@ -38,20 +38,20 @@ export default function NextBirthday() {
       <div className="font-title text-xl text-gray-200">
         Ближайший день рождения:
       </div>
-      <div className="relative w-52.5 h-80 overflow-hidden border border-gray-400/15 p-4 rounded-lg cursor-pointer transition hover:scale-105 flex flex-col justify-center items-center gap-1">
+      <div className="relative w-52.5 h-80 overflow-hidden border border-gray-400/15 p-4 rounded-lg cursor-pointer transition hover:scale-105 flex flex-col justify-between items-center gap-1">
         <div className="flex flex-col justify-center items-center gap-6">
-          <div className="w-25 flex justify-center items-center overflow-hidden">
+          <div className="w-32 flex justify-center items-center overflow-hidden">
             <img
               src={nextBirthday.img}
               alt=""
               className="w-full aspect-2/3 object-cover rounded-xl"
             />
           </div>
-          <div className="flex flex-col gap-2 items-center justify-center text-center">
-            <div className="font-title text-2xl text-gray-200">
-              {nextBirthday.title}
+          <div className="flex  gap-2 items-center justify-center text-center">
+            <div className="font-title text-xl text-gray-200">
+              {nextBirthday.title} -
             </div>
-            <div className="font-title text-2xl text-gray-300 text-center">
+            <div className="font-title text-xl text-gray-300 text-center">
               {nextBirthday.date}
             </div>
           </div>

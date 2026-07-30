@@ -9,10 +9,10 @@ import GetCurrentChooser from "./components/GetCurrentChooser";
 import NextMeet from "./components/NextMeet";
 import Girls from "./components/Girls";
 import Form from "./components/Form";
-import Footer from "./components/footer";
 import Block from "./components/Block";
 import type { Book } from "./types/book";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
