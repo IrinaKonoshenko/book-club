@@ -330,4 +330,74 @@ export const books: Book[] = [
     "/lostboy/9.jpg",
   ],
   },
+  {
+    id: 5,
+    title: "Скованные",
+    author: "SenLinYu",
+    cover: "/covers/7.jpg",
+
+    chosenBy: "Юлдуз",
+    readDate: "Август 2026",
+
+    reviews: [
+      {
+        name: "Ирина К",
+        rating: "",
+        text: "",
+      },
+       {
+        name: "Баян",
+        rating: "",
+        text: "",
+       },
+       {
+        name: "Мэри",
+        rating: "",
+        text: "",
+      },
+       {
+        name: "Натали",
+        rating: "",
+        text: ""
+      }, {
+        name: "Камилла",
+        rating: "",
+       text: "",  
+      },
+       {
+        name: "Юлдуз",
+        rating: "",
+        text: ""
+      },
+       {
+        name: "Катя",
+        rating: "",
+        text: ""
+      },
+       {
+        name: "Ирина Р",
+        rating: "",
+        text: ""
+      },
+        {
+        name: "Алекса",
+        rating: "",
+        text: ""
+      },
+
+
+    ], 
+    photos: [
+    "/dramiona/1.jpg",
+    "/dramiona/2.jpg",
+    "/dramiona/3.jpg",
+    "/dramiona/4.jpg",
+    "/dramiona/5.jpg",
+    "/dramiona/6.jpg",
+    "/dramiona/7.jpg",
+    "/dramiona/8.jpg",
+    "/dramiona/9.jpg",
+    "/dramiona/10.jpg",
+  ],
+  },
 ];

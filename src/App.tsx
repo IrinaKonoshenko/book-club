@@ -26,9 +26,8 @@ function App() {
         <Form />
         <div className="container mx-auto flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <BookOfMonth onClick={setSelectedBook} />
-
             <GetCurrentChooser />
+            <BookOfMonth onClick={setSelectedBook} />
             <Block />
             <NextMeet />
             <NextBirthday />
