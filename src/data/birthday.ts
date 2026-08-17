@@ -61,6 +61,12 @@ export const birthday: Birthday[] = [
         date: "15.11",
         img: "/girls/ul3.jpg",
     },
+    {
+        id: 10,
+        title: "Жанна Р",
+        date: "25.09",
+        img: "/girls/zh2.jpg",
+    },
     
 ]
 
