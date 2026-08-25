@@ -74,7 +74,7 @@ export const girls: Girls[] = [
      {
         id: 10,
         title: "Жанна Р",
-        date: "25.09",
+        date: "25.08",
         img: "/girls/zh2.jpg",
         description: "Исторический роман? Да! Да! Да!"
      }
