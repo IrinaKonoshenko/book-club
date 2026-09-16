@@ -19,7 +19,7 @@ export default function BookCard({ book, onClick }: BookCardProps) {
         />
       </div>
 
-      <h3 className="font-name text-center">{book.title}</h3>
+      <h3 className="font-name text-center h-12">{book.title}</h3>
 
       <p className="font-author text-gray-300">{book.author}</p>
     </div>

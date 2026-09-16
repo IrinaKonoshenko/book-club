@@ -5,7 +5,6 @@ import BooksRead from "./components/BooksRead";
 import Hero from "./components/Hero";
 import BookOfMonth from "./components/BookOfMonth";
 import NextBirthday from "./components/BirthdayBlock";
-import GetCurrentChooser from "./components/GetCurrentChooser";
 import NextMeet from "./components/NextMeet";
 import Girls from "./components/Girls";
 import Form from "./components/Form";
@@ -25,8 +24,7 @@ function App() {
         <Hero />
         <Form />
         <div className="container mx-auto flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <GetCurrentChooser />
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
             <BookOfMonth onClick={setSelectedBook} />
             <Block />
             <NextMeet />
