@@ -21,15 +21,15 @@ export const birthday: Birthday[] = [
     },
     {
         id: 3,
-        title: "Жанна",
-        date: "17.04",
-        img: "/girls/janna1.jpg",
-    },
-    {
-        id: 4,
         title: "Натали",
         date: "06.06",
         img: "/girls/nata.jpg",
+    },
+       {
+        id: 4,
+        title: "Алина",
+        date: "02.08",
+        img: "/girls/alina2.jpg",
     },
     {
         id: 5,
@@ -57,7 +57,7 @@ export const birthday: Birthday[] = [
     },
     {
         id: 9,
-        title: "Жанна Р",
+        title: "Жанна",
         date: "25.08",
         img: "/girls/zh2.jpg",
     },
