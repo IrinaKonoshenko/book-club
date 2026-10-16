@@ -428,8 +428,8 @@ export const books: Book[] = [
       },
        {
         name: "Натали",
-        rating: "",
-        text: ""
+        rating: "9/10",
+        text: "Мне очень понравилась история Авроры и Рендела. Читается легко, слог автора приятный, без лишнего пафоса. Мне понравилось, что все персонажи довольно живые и настоящие. То как автор описывает события заставляет действительно верить в происходящее. Так же мне понравилось, что любовная линия развивается размеренно и не форсируется. В целом понравилась книга и уже читаю продолжение. Единственное чего мне не хватило это политических интриг и политики в целом, но есть предположение, что мы уидим больше этого в следующих частях."
       }, {
         name: "Камилла",
         rating: "10/10",
@@ -479,70 +479,82 @@ export const books: Book[] = [
   ],
   },
 
-  //   {
-  //   id: 8,
-  //   title: "",
-  //   author: "",
-  //   cover: "/covers/.jpg",
+    {
+    id: 8,
+    title: "Голодные игры",
+    author: "Сьюзен Коллинз",
+    cover: "/covers/8.jpg",
 
-  //   chosenBy: "",
-  //   readDate: " 2026",
+    chosenBy: "vote",
+    readDate: "Октябрь 2026",
 
-  //   reviews: [
-  //     {
-  //       name: "Ирина",
-  //       rating: "",
-  //       text: "",
-  //     },
-  //      {
-  //       name: "Баян",
-  //       rating: "",
-  //       text: "",
-  //      },
-  //      {
-  //       name: "Мэри",
-  //       rating: "",
-  //       text: "",
-  //     },
-  //      {
-  //       name: "Натали",
-  //       rating: "",
-  //       text: ""
-  //     }, {
-  //       name: "Камилла",
-  //       rating: "",
-  //      text: "",  
-  //     },
-  //      {
-  //       name: "Юлдуз",
-  //       rating: "",
-  //       text: ""
-  //     },
-  //      {
-  //       name: "Катя",
-  //       rating: "",
-  //       text: ""
-  //     },
-  //      {
-  //       name: "Ирина Р",
-  //       rating: "",
-  //       text: ""
-  //     },
-  //       {
-  //       name: "Алекса",
-  //       rating: "",
-  //       text: ""
-  //     },
+    reviews: [
+      {
+        name: "Ирина",
+        rating: "",
+        text: "",
+      },
+       {
+        name: "Баян",
+        rating: "",
+        text: "",
+       },
+       {
+        name: "Мэри",
+        rating: "",
+        text: "",
+      },
+       {
+        name: "Натали",
+        rating: "",
+        text: ""
+      }, {
+        name: "Камилла",
+        rating: "",
+       text: "",  
+      },
+       {
+        name: "Юлдуз",
+        rating: "",
+        text: ""
+      },
+       {
+        name: "Катя",
+        rating: "",
+        text: ""
+      },
+       {
+        name: "Ирина Р",
+        rating: "",
+        text: ""
+      },
+        {
+        name: "Алекса",
+        rating: "",
+        text: ""
+      },
 
 
-  //   ], 
-  //   photos: [
-  //   "//1.jpg",
-  //   "//2.jpg",
-  //   "//3.jpg",
-
-  // ],
-  // },
+    ], 
+    photos: [
+    "/hungergames/1.jpg",
+    "/hungergames/2.jpg",
+    "/hungergames/3.jpg",
+    "/hungergames/4.jpeg",
+    "/hungergames/5.jpeg",
+    "/hungergames/6.jpg",
+    "/hungergames/7.jpg",
+    "/hungergames/8.jpeg",
+    "/hungergames/9.jpeg",
+    "/hungergames/10.jpg",
+    "/hungergames/11.jpg",
+    "/hungergames/12.jpg",
+    "/hungergames/13.jpeg",
+    "/hungergames/14.jpg",
+    "/hungergames/15.jpeg",
+    "/hungergames/16.jpg",
+  ],
+  },
   //   {
   //   id: 9,
   //   title: "",

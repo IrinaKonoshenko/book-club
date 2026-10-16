@@ -74,7 +74,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
               </p>
             </div>
             <div className="space-y-3">
-              <p className="text-slate-800 font-title">
+              <p className="text-slate-800">
                 <span className="font-semibold font-name">Chosen by:</span>{" "}
                 {book.chosenBy}
               </p>

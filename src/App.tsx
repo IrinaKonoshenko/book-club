@@ -12,6 +12,7 @@ import Block from "./components/Block";
 import type { Book } from "./types/book";
 import { useState } from "react";
 import Footer from "./components/Footer";
+import LinkToTheBookSelection from "./components/LinkToTheBookSelection";
 
 function App() {
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
@@ -22,7 +23,10 @@ function App() {
       <Header />
       <main className="relative text-white flex flex-col gap-10">
         <Hero />
-        <Form />
+        <div className="container mx-auto flex flex-col justify-center items-center gap-10 lg:flex-row lg:gap-20">
+          <Form />
+          <LinkToTheBookSelection />
+        </div>
         <div className="container mx-auto flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
             <BookOfMonth onClick={setSelectedBook} />

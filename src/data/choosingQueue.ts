@@ -9,5 +9,4 @@ export const choosingQueue = [
   "Катя",
   "Алекса",
   "Жанна",
-
 ];
