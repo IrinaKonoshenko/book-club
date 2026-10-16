@@ -407,8 +407,8 @@ export const books: Book[] = [
     author: "Софи Анри",
     cover: "/covers/7.jpg",
 
-    chosenBy: "",
-    readDate: " 2026",
+    chosenBy: "vote",
+    readDate: "Сентябрь 2026",
 
     reviews: [
       {
